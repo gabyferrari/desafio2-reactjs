@@ -1,0 +1,11 @@
+.bar-content {
+    background-color: var(--color-bg-tertiary);
+    color: var(--color-font-primary);
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.menu-item-bar {
+    margin-left: 20px;
+}
