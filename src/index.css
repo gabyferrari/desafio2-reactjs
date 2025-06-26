@@ -21,6 +21,15 @@ body {
   background-color: var(--color-bg-primary);
 }
 
+a, a:hover {
+  text-decoration: none;
+  color: unset;
+}
+
+.menu-active {
+    font-weight: 700;
+}
+
 .container {
   width: 100%;
   max-width: 960px;

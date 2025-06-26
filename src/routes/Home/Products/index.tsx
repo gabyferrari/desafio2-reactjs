@@ -1,11 +1,11 @@
 import { Outlet } from "react-router-dom";
-import BarContent from "../../../components/BarContent";
+import ProductsBar from "../../../components/ProductsBar";
 
 export default function Products() {
 
   return (
     <>
-      <BarContent />
+      <ProductsBar />
       <Outlet />
     </>
   );
