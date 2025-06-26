@@ -1,0 +1,37 @@
+header {
+    height: 80px;
+    background-color: var(--color-bg-secondary);
+    color: var(--color-font-secondary);
+    display: flex;
+    align-items: center;
+}
+
+.header-content-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.menu-items {
+  display: flex;
+}
+
+.menu-item {
+    margin-left: 20px;
+}
+
+.menu-icon {
+    margin-right: 20px;
+}
+
+.menu-icon img {
+   width: 30px;
+   height: 30px; 
+}
